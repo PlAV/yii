@@ -1,4 +1,4 @@
-<h1>Login form</h1>
+<h1>Авторизация</h1>
 
 <?=CHtml::form(); ?>
 <?=CHtml::errorSummary($form); ?><br>
@@ -14,11 +14,8 @@
         </tr>
         <tr>
             <td></td>
-            <td><?=CHtml::submitButton('Enter', array('id' => "submit")); ?>
-            <span><?=CHtml::link('Registration', array('user/registration')); ?></span>
-            </td>
+            <td><?=CHtml::submitButton('Войти', array('id' => "submit")); ?></td>
          </tr>
     </table>
-       
 
 <?=CHtml::endForm(); ?>

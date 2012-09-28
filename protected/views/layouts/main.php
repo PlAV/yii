@@ -38,7 +38,9 @@
                 array('label'=>'Support', 'url'=>array('/Support/index')),
 				array('label'=>'Registration', 'url'=>array('/user/registration'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Login ('.Yii::app()->user->name.')', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/user/logout'), 'visible'=>!Yii::app()->user->isGuest)
+				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/user/logout'), 'visible'=>!Yii::app()->user->isGuest),
+                array('label'=>'Profile ', 'url'=>array('/users/profile', 'id'=>77))
+                
 			),
 		)); ?>
 	</div><!-- mainmenu -->

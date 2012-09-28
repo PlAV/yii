@@ -27,8 +27,16 @@ class UsersController extends Controller
 	public function accessRules()
 	{
 		return array(
-			
 			array('allow',  // deny all users
+                'actions'=>array('index','profile','view'),
+				'users'=>array('@'),
+			),
+			array('allow',  // deny all users
+                'actions'=>array('delete','update'),
+				'users'=>array('admin'),
+			),
+            array('deny',  // deny all users
+                
 				'users'=>array('*'),
 			),
 		);
@@ -59,6 +67,7 @@ class UsersController extends Controller
 		if(isset($_POST['Users']))
 		{
 			$model->attributes=$_POST['Users'];
+            $model->id_user=$model->getRegData()->id;
             $model->is_active ? $model->is_active="yes" : $model->is_active="no"; 
             
 			if($model->save())
@@ -69,6 +78,31 @@ class UsersController extends Controller
 			'model'=>$model,
 		));
 	}
+    
+    public function actionProfile($id)
+	{
+		$model=$this->loadModel($id);
+        
+        
+
+		// Uncomment the following line if AJAX validation is needed
+		 $this->performAjaxValidation($model);
+
+		if(isset($_POST['Users']))
+		{
+			$model->attributes=$_POST['Users'];
+            $model->id_user=$model->getRegData()->id;
+            $model->is_active ? $model->is_active="yes" : $model->is_active="no"; 
+            
+			if($model->save())
+				$this->redirect(array('index'));
+		}
+
+		$this->render('profile',array(
+			'model'=>$model,
+		));
+	}
+    
 
 	/**
 	 * Updates a particular model.
@@ -85,9 +119,17 @@ class UsersController extends Controller
 		if(isset($_POST['Users'])){
 		  
 			$model->attributes=$_POST['Users'];
+            $model->id_user=$model->getRegData()->id;
+            
+            $model->user->passwd= $_POST['User']['passwd'];
+            $model->user->passwd= $_POST['User']['passwd'];
+           
+            //echo $model->getRegData()->id;
+            
+            
             $model->is_active ? $model->is_active="yes" : $model->is_active="no";
              
-			if ($model->save())
+			if ($model->save() && $model->user->save())
 				$this->redirect(array('index'));
 		}
 

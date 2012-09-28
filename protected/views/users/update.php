@@ -10,7 +10,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'List Users', 'url'=>array('index')),
-	array('label'=>'Delete Users', 'url'=>array('delete')),
+	
 
 );
 ?>

@@ -14,6 +14,13 @@
         {
             return 'user';
         }
+    	public function relations(){
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+            'users'=>array(self::BELONGS_TO, 'Users', 'id_user')
+		);
+	}
         
        
          

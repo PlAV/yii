@@ -76,9 +76,7 @@
      * Выводим форму для регистрации пользователя и проверяем
      * данные которые придут от неё.
       */
-       public function actionRe(){
-        echo "asd"; 
-       }
+     
     public function actionRegistration()
      {
         // тут думаю все понятно
@@ -110,9 +108,9 @@
                                 $form->addError('login', 'Логин уже занят');
                                 $this->render("registration", array('form' => $form));
                              } else {
-                                // Выводим страницу что "все окей"
+                                
                                 $form->save();
-                                $this->redirect(array("post/index"));
+                                $this->redirect(array("user/login"));
                             }
                                              
                     } else {

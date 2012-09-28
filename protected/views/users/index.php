@@ -1,4 +1,5 @@
 <?php
+echo "asd";
 /* @var $this UsersController */
 /* @var $dataProvider CActiveDataProvider */
 

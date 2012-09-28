@@ -2,6 +2,7 @@
 /* @var $this UsersController */
 /* @var $model Users */
 /* @var $form CActiveForm */
+   
 ?>
 
 <div class="form">
@@ -29,14 +30,14 @@
     
     
     <div class="row">
-		<?php echo $form->labelEx($model->user,'login'); ?>
-		<?php echo $form->textField($model->user,"login"); ?>
-		<?php echo $form->error($model->user,'login'); ?>
+		<?php echo $form->labelEx($model->getRegData(),'login'); ?>
+		<?php echo CHtml::encode($model->getRegData()->login); ?>
+		
 	</div>
     <div class="row">
-		<?php echo $form->labelEx($model->user,'passwd'); ?>
-		<?php echo $form->textField($model->user,"passwd"); ?>
-		<?php echo $form->error($model->user,'passwd'); ?>
+		<?php echo $form->labelEx($model->getRegData(),'passwd'); ?>
+		<?php echo $form->textField($model->getRegData(),"passwd"); ?>
+		<?php echo $form->error($model->getRegData(),'passwd'); ?>
 	</div>
     
 
