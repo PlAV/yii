@@ -16,4 +16,21 @@ $this->menu=array(
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
     'dataProvider'=>$dataProvider,
+    'columns'=>array(
+        'company_name',
+        'contact_name',
+        'contact_phone',
+        array(
+            'class'=>'CButtonColumn',
+            'template'=>'{Edit} | {Delete}',
+            'buttons'=>array(
+                'Edit'=>array(
+                    'url'=>''
+                ),
+                'Delete'=>array(
+                    'url'=>''
+                )
+            )
+        )
+    )
 )); ?>

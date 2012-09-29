@@ -33,10 +33,11 @@ class UsersController extends Controller
 			),
 			array('allow',  // deny all users
                 'actions'=>array('delete','update'),
-				'users'=>array('admin'),
+				'roles'=>array('admin'),
+                
 			),
             array('deny',  // deny all users
-                
+                'actions'=>array('delete'),
 				'users'=>array('*'),
 			),
 		);

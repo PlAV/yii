@@ -479,3 +479,287 @@ Stack trace:
 REQUEST_URI=/forms/index.php?r=users/profile&id=77
 HTTP_REFERER=http://demo/forms/index.php?r=post/index
 ---
+2012/09/29 11:39:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=users/profile&id=77
+---
+2012/09/29 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=users/profile&id=77
+---
+2012/09/29 22:01:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=post/index
+---
+2012/09/29 22:16:31 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.role" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:174
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(103): CComponent->__set('role', Array)
+#1 X:\home\demo\YiiRoot\framework\web\CController.php(1145): CAccessControlFilter->setRules(Array)
+#2 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('profile')
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/profile')
+#8 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/forms/index.php?r=users/profile&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=post/index
+---
+2012/09/29 22:16:36 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.role" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:174
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(103): CComponent->__set('role', Array)
+#1 X:\home\demo\YiiRoot\framework\web\CController.php(1145): CAccessControlFilter->setRules(Array)
+#2 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index')
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/index')
+#8 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/forms/index.php?r=users/index
+HTTP_REFERER=http://demo/forms/index.php?r=post/index
+---
+2012/09/29 22:17:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/update')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/update&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:17:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/update')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/update&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:17:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('delete')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/delete')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/delete&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:25:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/update')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/update&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:26:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/update')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/update&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:26:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/update')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/update&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:26:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/update')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/update&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:29:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('delete')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/delete')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=users/delete&id=78
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:47:40 [error] [exception.CException] exception 'CException' with message 'Either "name" or "value" must be specified for CDataColumn.' in X:\home\demo\YiiRoot\framework\zii\widgets\grid\CDataColumn.php:79
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(349): CDataColumn->init()
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(307): CGridView->initColumns()
+#2 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#3 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#4 X:\home\demo\www\forms\protected\views\clients\index.php(27): CBaseController->widget('zii.widgets.gri...', Array)
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#6 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#9 X:\home\demo\www\forms\protected\controllers\ClientsController.php(133): CController->render('index', Array)
+#10 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionIndex()
+#11 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index')
+#20 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index')
+#21 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/forms/index.php?r=clients/index
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/29 22:47:51 [error] [php] include(CListColumn.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (X:\home\demo\YiiRoot\framework\YiiBase.php:423)
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\YiiBase.php(198): import()
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(336): createComponent()
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(307): CGridView->initColumns()
+#3 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): ClientsController->createWidget()
+#5 X:\home\demo\www\forms\protected\views\clients\index.php(27): ClientsController->widget()
+#6 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require()
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): ClientsController->renderInternal()
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(870): ClientsController->renderFile()
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(783): ClientsController->renderPartial()
+#10 X:\home\demo\www\forms\protected\controllers\ClientsController.php(133): ClientsController->render()
+#11 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionIndex()
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): ClientsController->runAction()
+#14 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#16 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): ClientsController->filterAccessControl()
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#19 X:\home\demo\YiiRoot\framework\web\CController.php(266): ClientsController->runActionWithFilters()
+#20 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): ClientsController->run()
+#21 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#22 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 X:\home\demo\www\forms\index.php(13): CWebApplication->run()
+REQUEST_URI=/forms/index.php?r=clients/index
+in X:\home\demo\www\forms\protected\views\clients\index.php (27)
+in X:\home\demo\www\forms\protected\controllers\ClientsController.php (133)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/29 22:51:41 [error] [exception.CException] exception 'CException' with message 'Property "CButtonColumn.Buttons" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:174
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\YiiBase.php(222): CComponent->__set('Buttons', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(336): YiiBase::createComponent(Array, Object(CGridView))
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(307): CGridView->initColumns()
+#3 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 X:\home\demo\www\forms\protected\views\clients\index.php(36): CBaseController->widget('zii.widgets.gri...', Array)
+#6 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 X:\home\demo\www\forms\protected\controllers\ClientsController.php(133): CController->render('index', Array)
+#11 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionIndex()
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#19 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index')
+#21 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index')
+#22 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/forms/index.php?r=clients/index
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
