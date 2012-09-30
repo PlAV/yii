@@ -94,9 +94,6 @@ class Users extends CActiveRecord
 		));
 	}
     public function getRegData(){
-         return $user= User::model()->findByPk(Yii::app()->user->id);
-    
-         
-        
+         return  User::model()->findByPk(Yii::app()->user->id);
     }
 }

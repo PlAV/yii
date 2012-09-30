@@ -5,10 +5,14 @@
  *
  * The followings are the available columns in table 'clients':
  * @property integer $id
- * @property string $company_name
- * @property string $contact_name
- * @property integer $contact_phone
- * @property string $actions
+ * @property string $first_name
+ * @property string $last_name
+ * @property integer $direct_line
+ * @property integer $mobile
+ * @property string $title
+ * @property string $type
+ * @property string $general_notes
+ * @property string $contact_notes
  */
 class Clients extends CActiveRecord
 {
@@ -38,26 +42,24 @@ class Clients extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('company_name, contact_name, contact_phone, actions', 'required'),
-			array('contact_phone', 'numerical', 'integerOnly'=>true),
-			array('company_name, contact_name', 'length', 'max'=>100),
-		
+			array('first_name, last_name,  mobile,  general_notes, contact_notes', 'required'),
+			array('direct_line, mobile', 'numerical', 'integerOnly'=>true),
+			array('first_name, last_name, title, type', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, company_name, contact_name, contact_phone, actions', 'safe', 'on'=>'search'),
+			array('id, first_name, last_name, direct_line, mobile, title, type, general_notes, contact_notes', 'safe', 'on'=>'search'),
 		);
 	}
+    
+     public function relations(){
+        return array(
+            'compData'=> array(self::BELONGS_TO, 'CompanyDetails', 'id_company'),
+        );
+        
+    }
 
-	/**
-	 * @return array relational rules.
-	 */
-	public function relations()
-	{
-		// NOTE: you may need to adjust the relation name and the related
-		// class name for the relations automatically generated below.
-		return array(
-		);
-	}
+
+
 
 	/**
 	 * @return array customized attribute labels (name=>label)
@@ -66,10 +68,14 @@ class Clients extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'company_name' => 'Company Name',
-			'contact_name' => 'Contact Name',
-			'contact_phone' => 'Contact Phone',
-		
+			'first_name' => 'First Name',
+			'last_name' => 'Last Name',
+			'direct_line' => 'Direct Line',
+			'mobile' => 'Mobile',
+			'title' => 'Title',
+			'type' => 'Type',
+			'general_notes' => 'General Notes',
+			'contact_notes' => 'Contact Notes',
 		);
 	}
 
@@ -85,10 +91,14 @@ class Clients extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('company_name',$this->company_name,true);
-		$criteria->compare('contact_name',$this->contact_name,true);
-		$criteria->compare('contact_phone',$this->contact_phone);
-		
+		$criteria->compare('first_name',$this->first_name,true);
+		$criteria->compare('last_name',$this->last_name,true);
+		$criteria->compare('direct_line',$this->direct_line);
+		$criteria->compare('mobile',$this->mobile);
+		$criteria->compare('title',$this->title,true);
+		$criteria->compare('type',$this->type,true);
+		$criteria->compare('general_notes',$this->general_notes,true);
+		$criteria->compare('contact_notes',$this->contact_notes,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

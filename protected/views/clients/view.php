@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Clients'=>array('index'),
-	$model->id,
+	$model->title,
 );
 
 $this->menu=array(
@@ -21,9 +21,14 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'company_name',
-		'contact_name',
-		'contact_phone',
-		'actions',
+		'id',
+		'first_name',
+		'last_name',
+		'direct_line',
+		'mobile',
+		'title',
+		'type',
+		'general_notes',
+		'contact_notes',
 	),
 )); ?>

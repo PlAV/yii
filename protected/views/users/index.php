@@ -23,8 +23,7 @@ $this->menu=array(
 	'id'=>'users-grid',
     
 	'dataProvider'=>$model->search(),
-	'filter'=>$model,
-	'columns'=>array(
+    'columns'=>array(
 		'id',
 		'name',
 		'email',
@@ -36,6 +35,7 @@ $this->menu=array(
 		'id_user',
 		*/
 		array(
+            'header'=>'Actions',
 			'class'=>'CButtonColumn',
             'template' => '{Edit} | {Delete}',
             'buttons'=>array(

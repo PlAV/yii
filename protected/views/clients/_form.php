@@ -2,6 +2,7 @@
 /* @var $this ClientsController */
 /* @var $model Clients */
 /* @var $form CActiveForm */
+
 ?>
 
 <div class="form">
@@ -16,27 +17,51 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'company_name'); ?>
-		<?php echo $form->textField($model,'company_name',array('size'=>60,'maxlength'=>100)); ?>
-		<?php echo $form->error($model,'company_name'); ?>
+		<?php echo $form->labelEx($model,'first_name'); ?>
+		<?php echo $form->textField($model,'first_name',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'first_name'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'contact_name'); ?>
-		<?php echo $form->textField($model,'contact_name',array('size'=>60,'maxlength'=>100)); ?>
-		<?php echo $form->error($model,'contact_name'); ?>
+		<?php echo $form->labelEx($model,'last_name'); ?>
+		<?php echo $form->textField($model,'last_name',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'last_name'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'contact_phone'); ?>
-		<?php echo $form->textField($model,'contact_phone'); ?>
-		<?php echo $form->error($model,'contact_phone'); ?>
+		<?php echo $form->labelEx($model,'direct_line'); ?>
+		<?php echo $form->textField($model,'direct_line'); ?>
+		<?php echo $form->error($model,'direct_line'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'actions'); ?>
-		<?php echo $form->textField($model,'actions',array('size'=>5,'maxlength'=>5)); ?>
-		<?php echo $form->error($model,'actions'); ?>
+		<?php echo $form->labelEx($model,'mobile'); ?>
+		<?php echo $form->textField($model,'mobile'); ?>
+		<?php echo $form->error($model,'mobile'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'title'); ?>
+		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'title'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'type'); ?>
+		<?php echo $form->textField($model,'type',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'type'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'general_notes'); ?>
+		<?php echo $form->textArea($model,'general_notes',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'general_notes'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'contact_notes'); ?>
+		<?php echo $form->textArea($model,'contact_notes',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'contact_notes'); ?>
 	</div>
 
 	<div class="row buttons">

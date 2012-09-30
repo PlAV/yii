@@ -30,14 +30,14 @@
     
     
     <div class="row">
-		<?php echo $form->labelEx($model->getRegData(),'login'); ?>
-		<?php echo CHtml::encode($model->getRegData()->login); ?>
+		<?php echo $form->labelEx($model->regData,'login'); ?>
+		<?php echo CHtml::encode($model->regData->login); ?>
 		
 	</div>
     <div class="row">
-		<?php echo $form->labelEx($model->getRegData(),'passwd'); ?>
-		<?php echo $form->textField($model->getRegData(),"passwd"); ?>
-		<?php echo $form->error($model->getRegData(),'passwd'); ?>
+		<?php echo $form->labelEx($model->regData,'passwd'); ?>
+		<?php echo $form->textField($model->regData,"passwd"); ?>
+		<?php echo $form->error($model->regData,'passwd'); ?>
 	</div>
     
 

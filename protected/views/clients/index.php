@@ -8,29 +8,49 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Create Clients', 'url'=>array('create')),
-	array('label'=>'Manage Clients', 'url'=>array('admin')),
+	
 );
 ?>
 
 <h1>Clients</h1>
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-    'dataProvider'=>$dataProvider,
+ <?php
+        
+     $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'users-grid',
+    
+	'dataProvider'=>Clients::model()->search(),
     'columns'=>array(
-        'company_name',
-        'contact_name',
-        'contact_phone',
+		'id',
+		'compData.company_name',
         array(
-            'class'=>'CButtonColumn',
-            'template'=>'{Edit} | {Delete}',
+            'name'=>'contact name',
+            'value'=>'$data->first_name'    
+        ),
+        array(
+            'name'=>'Contact phone',
+            'value'=>'$data->mobile'    
+        ),
+        array(
+            'header'=>'Actions',
+			'class'=>'CButtonColumn',
+            'template' => '{Edit} | {Delete}',
             'buttons'=>array(
                 'Edit'=>array(
-                    'url'=>''
+                    'url'=>'Yii::app()->createUrl("clients/update",array("id"=>$data->id))',
+                    
+                    
+                    
                 ),
                 'Delete'=>array(
-                    'url'=>''
-                )
+                    'url'=>'Yii::app()->createUrl("clients/delete",array("id"=>$data->id))',
+                    'click'=>'function(){if (!confirm("Delete ?"))return false;}',
+                    
+                    
+                ),
+                
             )
-        )
-    )
+            
+		),
+	),
 )); ?>
