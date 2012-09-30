@@ -123,10 +123,6 @@ class UsersController extends Controller
             $model->id_user=$model->getRegData()->id;
             
             $model->user->passwd= $_POST['User']['passwd'];
-            $model->user->passwd= $_POST['User']['passwd'];
-           
-            //echo $model->getRegData()->id;
-            
             
             $model->is_active ? $model->is_active="yes" : $model->is_active="no";
              

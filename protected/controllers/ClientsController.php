@@ -29,7 +29,7 @@ class ClientsController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','details'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -40,9 +40,9 @@ class ClientsController extends Controller
 				'actions'=>array('admin','delete'),
 				'users'=>array('admin'),
 			),
-			array('deny',  // deny all users
+		/*	array('deny',  // deny all users
 				'users'=>array('*'),
-			),
+			),*/
 		);
 	}
 
@@ -72,7 +72,7 @@ class ClientsController extends Controller
 		{
 			$model->attributes=$_POST['Clients'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('index'));
 		}
 
 		$this->render('create',array(
@@ -100,6 +100,44 @@ class ClientsController extends Controller
 		}
 
 		$this->render('update',array(
+			'model'=>$model,
+		));
+	}
+    
+     public function actionUpdate2($id)
+	{
+		$model=$this->loadModel($id);
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+    	if(isset($_POST['CompanyDetails']))
+		{
+			$model->compData->attributes=$_POST['CompanyDetails'];
+			if($model->compData->save())
+			$this->redirect(array('index2','id'=>$model->id));
+		}
+
+		$this->render('_form2',array(
+			'model'=>$model,
+		));
+	}
+    
+    public function actionIndex2($id)
+	{
+		$model=$this->loadModel($id);
+
+		// Uncomment the following line if AJAX validation is needed
+		// $this->performAjaxValidation($model);
+
+	/*	if(isset($_POST['CompanyDetails']))
+		{
+			$model->compData->attributes=$_POST['CompanyDetails'];
+			if($model->compData->save())
+				$this->redirect(array('index'));
+		}*/
+
+		$this->render('view_CD',array(
 			'model'=>$model,
 		));
 	}
@@ -131,7 +169,16 @@ class ClientsController extends Controller
             )
 		));
 	}
-
+ /*   
+    public function actionDetails($id)
+	{
+	    $model=$this->loadModel($id);
+	
+		$this->render('details',array(
+			'model'=>$model,
+         ));
+	}
+*/
 	/**
 	 * Manages all models.
 	 */

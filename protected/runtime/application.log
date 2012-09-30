@@ -1939,3 +1939,1546 @@ Stack trace:
 REQUEST_URI=/forms/index.php?r=clients/index
 HTTP_REFERER=http://demo/forms/index.php?r=users/index
 ---
+2012/09/30 13:41:16 [error] [exception.CException] exception 'CException' with message 'ClientsController cannot find the requested view "view".' in X:\home\demo\YiiRoot\framework\web\CController.php:879
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#1 X:\home\demo\www\forms\protected\controllers\ClientsController.php(57): CController->render('view', Array)
+#2 [internal function]: ClientsController->actionView('7')
+#3 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#4 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#14 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view')
+#15 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/forms/index.php?r=clients/view&id=7
+HTTP_REFERER=http://demo/forms/index.php?r=clients/create
+---
+2012/09/30 13:42:44 [error] [exception.CException] exception 'CException' with message 'ClientsController cannot find the requested view "view".' in X:\home\demo\YiiRoot\framework\web\CController.php:879
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#1 X:\home\demo\www\forms\protected\controllers\ClientsController.php(57): CController->render('view', Array)
+#2 [internal function]: ClientsController->actionView('7')
+#3 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#4 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#14 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view')
+#15 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/forms/index.php?r=clients/view&id=7
+HTTP_REFERER=http://demo/forms/index.php?r=clients/create
+---
+2012/09/30 13:43:15 [error] [exception.CException] exception 'CException' with message 'ClientsController cannot find the requested view "view".' in X:\home\demo\YiiRoot\framework\web\CController.php:879
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#1 X:\home\demo\www\forms\protected\controllers\ClientsController.php(57): CController->render('view', Array)
+#2 [internal function]: ClientsController->actionView('7')
+#3 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#4 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#14 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view')
+#15 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/forms/index.php?r=clients/view&id=7
+HTTP_REFERER=http://demo/forms/index.php?r=clients/create
+---
+2012/09/30 13:47:29 [error] [exception.CException] exception 'CException' with message 'Property "Clients.contact name" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:131
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(144): CComponent->__get('contact name')
+#1 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('contact name')
+#2 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Clients), 'contact name')
+#3 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Clients), 'contact name', Array)
+#4 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CDataColumn.php(98): CHtml::activeTextField(Object(Clients), 'contact name', Array)
+#5 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridColumn.php(110): CDataColumn->renderFilterCellContent()
+#6 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(477): CGridColumn->renderFilterCell()
+#7 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderFilter()
+#8 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(425): CGridView->renderTableHeader()
+#9 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 X:\home\demo\YiiRoot\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 X:\home\demo\www\forms\protected\views\clients\index.php(56): CBaseController->widget('zii.widgets.gri...', Array)
+#15 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#16 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#17 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#19 X:\home\demo\www\forms\protected\controllers\ClientsController.php(132): CController->render('index', Array)
+#20 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionIndex()
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#28 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index')
+#30 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index')
+#31 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/forms/index.php?r=clients/index
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/30 13:48:08 [error] [exception.CException] exception 'CException' with message 'Property "Clients.contact name" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:131
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(144): CComponent->__get('contact name')
+#1 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('contact name')
+#2 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Clients), 'contact name')
+#3 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Clients), 'contact name', Array)
+#4 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CDataColumn.php(98): CHtml::activeTextField(Object(Clients), 'contact name', Array)
+#5 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridColumn.php(110): CDataColumn->renderFilterCellContent()
+#6 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(477): CGridColumn->renderFilterCell()
+#7 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderFilter()
+#8 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(425): CGridView->renderTableHeader()
+#9 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#10 [internal function]: CBaseListView->renderSection(Array)
+#11 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#12 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#13 X:\home\demo\YiiRoot\framework\web\CBaseController.php(174): CBaseListView->run()
+#14 X:\home\demo\www\forms\protected\views\clients\index.php(56): CBaseController->widget('zii.widgets.gri...', Array)
+#15 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#16 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#17 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#19 X:\home\demo\www\forms\protected\controllers\ClientsController.php(132): CController->render('index', Array)
+#20 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionIndex()
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#28 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index')
+#30 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index')
+#31 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/forms/index.php?r=clients/index
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/30 13:48:36 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:48:39 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:48:42 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:48:45 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:48:48 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:48:52 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:49:01 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:49:07 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:49:14 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:49:17 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:49:19 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:49:36 [warning] [application] Failed to set unsafe attribute "id" of "Users".
+in X:\home\demo\www\forms\protected\controllers\UsersController.php (181)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 13:50:47 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "getValidators".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1871): CComponent->__call('getValidators', Array)
+#1 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1871): CActiveDataProvider->getValidators('id')
+#2 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(CActiveDataProvider), 'id', Array)
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CDataColumn.php(98): CHtml::activeTextField(Object(CActiveDataProvider), 'id', Array)
+#4 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridColumn.php(110): CDataColumn->renderFilterCellContent()
+#5 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(477): CGridColumn->renderFilterCell()
+#6 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(455): CGridView->renderFilter()
+#7 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(425): CGridView->renderTableHeader()
+#8 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#9 [internal function]: CBaseListView->renderSection(Array)
+#10 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#11 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#12 X:\home\demo\YiiRoot\framework\web\CBaseController.php(174): CBaseListView->run()
+#13 X:\home\demo\www\forms\protected\views\clients\index.php(56): CBaseController->widget('zii.widgets.gri...', Array)
+#14 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#15 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#16 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#17 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#18 X:\home\demo\www\forms\protected\controllers\ClientsController.php(132): CController->render('index', Array)
+#19 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionIndex()
+#20 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#22 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#23 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#24 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#25 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#26 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#27 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#28 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index')
+#29 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index')
+#30 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#31 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#32 {main}
+REQUEST_URI=/forms/index.php?r=clients/index
+HTTP_REFERER=http://demo/forms/index.php?r=users/index
+---
+2012/09/30 14:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('details')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 14:23:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 14:37:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tasks/index".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('tasks/index')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=tasks/index
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in X:\home\demo\www\forms\protected\controllers\ClientsController.php:167
+Stack trace:
+#0 X:\home\demo\www\forms\protected\controllers\ClientsController.php(126): ClientsController->loadModel(NULL)
+#1 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionIndex()
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index')
+#11 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index')
+#12 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/forms/index.php?r=clients/index
+HTTP_REFERER=http://demo/forms/index.php?r=clients/details&id=1
+---
+2012/09/30 15:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in X:\home\demo\www\forms\protected\controllers\ClientsController.php:168
+Stack trace:
+#0 X:\home\demo\www\forms\protected\controllers\ClientsController.php(137): ClientsController->loadModel(NULL)
+#1 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionDetails()
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#11 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#12 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in X:\home\demo\www\forms\protected\controllers\ClientsController.php:168
+Stack trace:
+#0 X:\home\demo\www\forms\protected\controllers\ClientsController.php(137): ClientsController->loadModel(NULL)
+#1 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionDetails()
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#11 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#12 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:24:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in X:\home\demo\www\forms\protected\controllers\ClientsController.php:168
+Stack trace:
+#0 X:\home\demo\www\forms\protected\controllers\ClientsController.php(137): ClientsController->loadModel(NULL)
+#1 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionDetails()
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#11 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#12 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in X:\home\demo\www\forms\protected\controllers\ClientsController.php:168
+Stack trace:
+#0 X:\home\demo\www\forms\protected\controllers\ClientsController.php(137): ClientsController->loadModel(NULL)
+#1 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(50): ClientsController->actionDetails()
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#11 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#12 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:37:49 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(30): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:39:24 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:41:44 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:43:22 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:44:33 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(30): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:45:15 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(30): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:45:37 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(30): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:46:42 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php:106
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#1 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#2 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 X:\home\demo\www\forms\protected\views\clients\details.php(30): CBaseController->widget('zii.widgets.gri...', Array)
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#8 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#9 [internal function]: ClientsController->actionDetails('1')
+#10 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#11 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#19 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#21 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#22 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:47:01 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(28): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:49:28 [error] [exception.CException] exception 'CException' with message 'The "dataProvider" property cannot be empty.' in X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php:106
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#1 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#2 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#3 X:\home\demo\www\forms\protected\views\clients\details.php(25): CBaseController->widget('zii.widgets.gri...', Array)
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#8 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#9 [internal function]: ClientsController->actionDetails('1')
+#10 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#11 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#19 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#21 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#22 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:49:38 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(25): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 15:50:35 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\details.php(25): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('details', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(141): CController->render('details', Array)
+#12 [internal function]: ClientsController->actionDetails('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('details')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/details')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/details&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 16:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tasks/index".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('tasks/index')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=tasks/index
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=8
+---
+2012/09/30 16:47:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in X:\home\demo\www\forms\protected\controllers\ClientsController.php:168
+Stack trace:
+#0 X:\home\demo\www\forms\protected\controllers\ClientsController.php(90): ClientsController->loadModel('2')
+#1 [internal function]: ClientsController->actionUpdate('2')
+#2 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#3 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#4 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#11 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#13 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update')
+#14 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/forms/index.php?r=clients/update&id=2
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 16:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 16:49:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in X:\home\demo\www\forms\protected\controllers\ClientsController.php:168
+Stack trace:
+#0 X:\home\demo\www\forms\protected\controllers\ClientsController.php(90): ClientsController->loadModel('2')
+#1 [internal function]: ClientsController->actionUpdate('2')
+#2 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#3 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#4 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#11 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#13 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update')
+#14 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/forms/index.php?r=clients/update&id=2
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 16:54:18 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in X:\home\demo\YiiRoot\framework\web\CController.php:337
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#9 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update')
+#10 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/forms/index.php?r=clients/update&0%5Bid%5D=1&0%5Bid2%5D=compDet
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 16:55:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 16:55:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 16:56:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 16:56:41 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in X:\home\demo\YiiRoot\framework\web\CController.php:337
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#9 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update')
+#10 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/forms/index.php?r=clients/update&0%5Bid%5D=1&0%5Bid2%5D=compDet
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 16:57:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in X:\home\demo\YiiRoot\framework\web\CController.php:337
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update')
+#9 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update')
+#10 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/forms/index.php?r=clients/update&0%5Bid%5D=1&0%5B%23%5D=compDet
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 17:02:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in X:\home\demo\YiiRoot\framework\web\CWebApplication.php:287
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#1 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/forms/index.php?r=site/login
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 17:07:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update2".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('update2')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:08:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:08:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:08:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:08:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:08:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:08:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:09:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:11:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:13:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:14:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:14:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:14:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#9 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:15:47 [error] [exception.CException] exception 'CException' with message 'Property "Clients.company_name" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:131
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(144): CComponent->__get('company_name')
+#1 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('company_name')
+#2 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Clients), 'company_name')
+#3 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Clients), 'company_name', Array)
+#4 X:\home\demo\YiiRoot\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Clients), 'company_name', Array)
+#5 X:\home\demo\www\forms\protected\views\clients\_form2.php(20): CActiveForm->textField(Object(Clients), 'company_name', Array)
+#6 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\www\forms\protected\views\clients\update2.php(30): CController->renderPartial('_form2', Array)
+#10 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#11 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#13 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('update2', Array, true)
+#14 X:\home\demo\www\forms\protected\controllers\ClientsController.php(123): CController->render('update2', Array)
+#15 [internal function]: ClientsController->actionUpdate2('1')
+#16 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#17 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#22 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#23 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#25 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#27 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#28 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:16:17 [error] [exception.CException] exception 'CException' with message 'Property "Clients.adress1" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:131
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(144): CComponent->__get('adress1')
+#1 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('adress1')
+#2 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Clients), 'adress1')
+#3 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Clients), 'adress1', Array)
+#4 X:\home\demo\YiiRoot\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Clients), 'adress1', Array)
+#5 X:\home\demo\www\forms\protected\views\clients\_form2.php(26): CActiveForm->textField(Object(Clients), 'adress1', Array)
+#6 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\www\forms\protected\views\clients\update2.php(30): CController->renderPartial('_form2', Array)
+#10 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#11 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#12 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#13 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('update2', Array, true)
+#14 X:\home\demo\www\forms\protected\controllers\ClientsController.php(123): CController->render('update2', Array)
+#15 [internal function]: ClientsController->actionUpdate2('1')
+#16 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#17 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#22 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#23 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#25 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#27 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#28 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:17:06 [error] [exception.CException] exception 'CException' with message 'Property "CompanyDetails.compData" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:131
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(144): CComponent->__get('compData')
+#1 X:\home\demo\www\forms\protected\views\clients\_form2.php(43): CActiveRecord->__get('compData')
+#2 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#3 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#4 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#5 X:\home\demo\www\forms\protected\views\clients\update2.php(30): CController->renderPartial('_form2', Array)
+#6 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#8 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('update2', Array, true)
+#10 X:\home\demo\www\forms\protected\controllers\ClientsController.php(123): CController->render('update2', Array)
+#11 [internal function]: ClientsController->actionUpdate2('1')
+#12 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#13 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#14 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#18 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#24 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 17:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('users/view')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=users/view&id=77
+HTTP_REFERER=http://demo/forms/index.php?r=users/update&id=77
+---
+2012/09/30 18:14:00 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\view.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(57): CController->render('view', Array)
+#12 [internal function]: ClientsController->actionView('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/view&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 18:14:08 [error] [exception.CException] exception 'CException' with message 'Clients and its behaviors do not have a method or closure named "getData".' in X:\home\demo\YiiRoot\framework\base\CComponent.php:266
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(226): CComponent->__call('getData', Array)
+#1 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): CActiveRecord->__call('getData', Array)
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(108): Clients->getData()
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(289): CBaseListView->init()
+#4 X:\home\demo\YiiRoot\framework\web\CBaseController.php(148): CGridView->init()
+#5 X:\home\demo\YiiRoot\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.gri...', Array)
+#6 X:\home\demo\www\forms\protected\views\clients\view.php(51): CBaseController->widget('zii.widgets.gri...', Array)
+#7 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#8 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#9 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#10 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#11 X:\home\demo\www\forms\protected\controllers\ClientsController.php(57): CController->render('view', Array)
+#12 [internal function]: ClientsController->actionView('1')
+#13 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#14 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#22 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#24 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view')
+#25 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/forms/index.php?r=clients/view&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 18:18:01 [error] [exception.CException] exception 'CException' with message 'Property "Clients.email" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:131
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(144): CComponent->__get('email')
+#1 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('email')
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CDataColumn.php(134): CHtml::value(Object(Clients), 'email')
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Clients))
+#4 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#5 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#6 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#7 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#8 [internal function]: CBaseListView->renderSection(Array)
+#9 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#10 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#11 X:\home\demo\YiiRoot\framework\web\CBaseController.php(174): CBaseListView->run()
+#12 X:\home\demo\www\forms\protected\views\clients\view.php(58): CBaseController->widget('zii.widgets.gri...', Array)
+#13 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#14 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#16 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#17 X:\home\demo\www\forms\protected\controllers\ClientsController.php(57): CController->render('view', Array)
+#18 [internal function]: ClientsController->actionView('1')
+#19 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#20 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#28 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#30 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view')
+#31 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/forms/index.php?r=clients/view&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/index
+---
+2012/09/30 18:32:23 [warning] [application] Failed to set unsafe attribute "email" of "Clients".
+in X:\home\demo\www\forms\protected\controllers\ClientsController.php (97)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 18:32:57 [warning] [application] Failed to set unsafe attribute "email" of "Clients".
+in X:\home\demo\www\forms\protected\controllers\ClientsController.php (97)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 18:32:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in X:\home\demo\YiiRoot\framework\web\CController.php:337
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view')
+#9 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view')
+#10 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/forms/index.php?r=clients/view
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update&id=1
+---
+2012/09/30 18:33:34 [warning] [application] Failed to set unsafe attribute "email" of "Clients".
+in X:\home\demo\www\forms\protected\controllers\ClientsController.php (97)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 18:34:46 [warning] [application] Failed to set unsafe attribute "email" of "Clients".
+in X:\home\demo\www\forms\protected\controllers\ClientsController.php (97)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 18:37:19 [warning] [application] Failed to set unsafe attribute "email" of "Clients".
+in X:\home\demo\www\forms\protected\controllers\ClientsController.php (97)
+in X:\home\demo\www\forms\index.php (13)
+2012/09/30 18:57:07 [error] [exception.CException] exception 'CException' with message 'Property "Clients.company_name" is not defined.' in X:\home\demo\YiiRoot\framework\base\CComponent.php:131
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\db\ar\CActiveRecord.php(144): CComponent->__get('company_name')
+#1 X:\home\demo\YiiRoot\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('company_name')
+#2 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CDataColumn.php(134): CHtml::value(Object(Clients), 'company_name')
+#3 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(Clients))
+#4 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#5 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#6 X:\home\demo\YiiRoot\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#7 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#8 [internal function]: CBaseListView->renderSection(Array)
+#9 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#10 X:\home\demo\YiiRoot\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#11 X:\home\demo\YiiRoot\framework\web\CBaseController.php(174): CBaseListView->run()
+#12 X:\home\demo\www\forms\protected\views\clients\view_CD.php(70): CBaseController->widget('zii.widgets.gri...', Array)
+#13 X:\home\demo\YiiRoot\framework\web\CBaseController.php(127): require('X:\home\demo\ww...')
+#14 X:\home\demo\YiiRoot\framework\web\CBaseController.php(96): CBaseController->renderInternal('X:\home\demo\ww...', Array, true)
+#15 X:\home\demo\YiiRoot\framework\web\CController.php(870): CBaseController->renderFile('X:\home\demo\ww...', Array, true)
+#16 X:\home\demo\YiiRoot\framework\web\CController.php(783): CController->renderPartial('view_CD', Array, true)
+#17 X:\home\demo\www\forms\protected\controllers\ClientsController.php(123): CController->render('view_CD', Array)
+#18 [internal function]: ClientsController->actionUpdate2('1')
+#19 X:\home\demo\YiiRoot\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ClientsController), Array)
+#20 X:\home\demo\YiiRoot\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ClientsController), Object(ReflectionMethod), Array)
+#21 X:\home\demo\YiiRoot\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#22 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#23 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#24 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#25 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#26 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#27 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#28 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#29 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#30 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#31 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#32 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#33 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:22:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index2".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('index2')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index2')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index2')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/index2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/view&id=1
+---
+2012/09/30 19:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index2".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('index2')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index2')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index2')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/index2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/view&id=1
+---
+2012/09/30 19:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "update2".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('update2')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('update2')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/update2')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/update2&id=1
+HTTP_REFERER=http://demo/forms/index.php?r=clients/view&id=1
+---
+2012/09/30 19:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_CD".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view_CD')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view_CD')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view_CD')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/view_CD
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:33:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_CD".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view_CD')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view_CD')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view_CD')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/view_CD
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:33:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_CD".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view_CD')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view_CD')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view_CD')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/view_CD
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:33:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_CD".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view_CD')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view_CD')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view_CD')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/view_CD
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_CD".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view_CD')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view_CD')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view_CD')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/view_CD
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_CD".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view_CD')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view_CD')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view_CD')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/view_CD
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:34:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view_CD".' in X:\home\demo\YiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(271): CController->missingAction('view_CD')
+#1 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('view_CD')
+#2 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/view_CD')
+#3 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/forms/index.php?r=clients/view_CD
+HTTP_REFERER=http://demo/forms/index.php?r=clients/update2&id=1
+---
+2012/09/30 19:35:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in X:\home\demo\YiiRoot\framework\web\CController.php:337
+Stack trace:
+#0 X:\home\demo\YiiRoot\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 X:\home\demo\YiiRoot\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 X:\home\demo\YiiRoot\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 X:\home\demo\YiiRoot\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 X:\home\demo\YiiRoot\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 X:\home\demo\YiiRoot\framework\web\CController.php(292): CFilterChain->run()
+#7 X:\home\demo\YiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(283): CController->run('index2')
+#9 X:\home\demo\YiiRoot\framework\web\CWebApplication.php(142): CWebApplication->runController('clients/index2')
+#10 X:\home\demo\YiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 X:\home\demo\www\forms\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/forms/index.php?r=clients/index2
+---

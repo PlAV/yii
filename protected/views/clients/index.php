@@ -7,19 +7,18 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Clients', 'url'=>array('create')),
+	array('label'=>'Add New Client', 'url'=>array('create')),
 	
 );
 ?>
 
-<h1>Clients</h1>
+
 
  <?php
         
      $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'users-grid',
-    
-	'dataProvider'=>Clients::model()->search(),
+    'dataProvider'=>Clients::model()->search(),
     'columns'=>array(
 		'id',
 		'compData.company_name',
@@ -34,13 +33,13 @@ $this->menu=array(
         array(
             'header'=>'Actions',
 			'class'=>'CButtonColumn',
-            'template' => '{Edit} | {Delete}',
+            'template' => '{Details} | {Delete} ',
             'buttons'=>array(
+                'Details'=>array(
+                    'url'=>'Yii::app()->createUrl("clients/view",array("id"=>$data->id))',
+                ),
                 'Edit'=>array(
                     'url'=>'Yii::app()->createUrl("clients/update",array("id"=>$data->id))',
-                    
-                    
-                    
                 ),
                 'Delete'=>array(
                     'url'=>'Yii::app()->createUrl("clients/delete",array("id"=>$data->id))',
@@ -48,7 +47,7 @@ $this->menu=array(
                     
                     
                 ),
-                
+                 
             )
             
 		),

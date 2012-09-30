@@ -42,12 +42,10 @@ class Clients extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, last_name,  mobile,  general_notes, contact_notes', 'required'),
+			array('first_name, last_name,  mobile, email,  general_notes, contact_notes', 'required'),
 			array('direct_line, mobile', 'numerical', 'integerOnly'=>true),
 			array('first_name, last_name, title, type', 'length', 'max'=>100),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('id, first_name, last_name, direct_line, mobile, title, type, general_notes, contact_notes', 'safe', 'on'=>'search'),
+		    array('id, first_name, last_name, direct_line, mobile, title, type, general_notes, contact_notes', 'safe', 'on'=>'search'),
 		);
 	}
     
@@ -95,6 +93,7 @@ class Clients extends CActiveRecord
 		$criteria->compare('last_name',$this->last_name,true);
 		$criteria->compare('direct_line',$this->direct_line);
 		$criteria->compare('mobile',$this->mobile);
+        $criteria->compare('email',$this->email);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('type',$this->type,true);
 		$criteria->compare('general_notes',$this->general_notes,true);

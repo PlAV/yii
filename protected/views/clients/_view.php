@@ -42,6 +42,10 @@
 	<?php echo CHtml::encode($data->contact_notes); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_company')); ?>:</b>
+	<?php echo CHtml::encode($data->id_company); ?>
+	<br />
+
 	*/ ?>
 
 </div>

@@ -26,7 +26,7 @@ $this->menu=array(
 		'email',
 		'mobile',
 		'role',
-		'is_active',
+		
 		
 		'id_user',
 	),

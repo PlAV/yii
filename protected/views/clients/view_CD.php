@@ -9,11 +9,11 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'List Clients', 'url'=>array('index')),
-
+	
 );
 ?>
 
-<h1> Client- <?php echo $model->first_name; ?></h1>
+<h1>View Client-<?php echo $model->first_name; ?></h1>
 
 <?php
 $this->widget('zii.widgets.CMenu',array(
@@ -32,14 +32,17 @@ $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'users-grid',
     'dataProvider'=>$model->search(),
     'columns'=>array(
-		'id',
-        'first_name',
-        'last_name',
-        'direct_line',
-        'mobile',
-        'email',
-        'title',
-        'type',
+		'compData.id',
+        'compData.company_name',
+        'compData.adress1',
+        'compData.adress2',
+        'compData.suburb',
+        'compData.zip',
+        'compData.state',
+        'compData.phone',
+        'compData.fax',
+        'compData.website',
+        
         
         array(
             'header'=>'Actions',
@@ -47,7 +50,7 @@ $this->widget('zii.widgets.grid.CGridView', array(
             'template' => '{Edit} | {Delete} ',
             'buttons'=>array(
                 'Edit'=>array(
-                    'url'=>'Yii::app()->createUrl("clients/update",array("id"=>$data->id))',
+                    'url'=>'Yii::app()->createUrl("clients/update2",array("id"=>$data->id))',
                 ),
                 'Delete'=>array(
                     'url'=>'Yii::app()->createUrl("clients/delete",array("id"=>$data->id))',

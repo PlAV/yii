@@ -41,8 +41,29 @@ body
 	border-top: 1px solid #C9E0ED;
 }
 /*Col Actions Width*/
-#yw0_c3,#users-grid_c6{
+#yw0_c3,#users-grid_c6,#users-grid_c8{
     width: 100px;
+}
+#users-grid_c4{
+    width: 120px;
+}
+/* Clients */
+.detailsClient{
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    
+   	
+    
+}
+.detailsClient a{
+   text-decoration: none;
+   background-color:#3D6277;
+   color: #FFF;
+   padding:2px;border:1px solid black;
+}
+.detailsClient a:hover{
+   color: greenyellow;
 }
 
 #logo
